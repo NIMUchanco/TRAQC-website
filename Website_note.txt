@@ -1,0 +1,46 @@
+[Icon]
+4774B6
+
+[background]
+3264AA - blue
+000000 - black
+F6F6F6 - very light gray
+
+[text]
+000000 - black
+
+[sub-text]
+666666 - gray
+
+[lines]
+AEAEAE - light gray
+
+
+[Message]
+
+Column 1:
+
+Features:
+Inline
+Contactless
+At printing speed
+Retrofittable
+
+
+Column 2:
+
+Characteristic detection:
+Conductivity
+Ink spreading
+Thickness
+
+
+Column 3:
+
+Compatible with:
+Screen printing
+Inkjet
+Flexography
+Rotogravure
+
+

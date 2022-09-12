@@ -1,0 +1,77 @@
+/*ここからトップ*/
+.top-wrapper {
+	height: 500px;
+	background-image: url(team.jpg);
+	background-position: center;
+  	background-size: 30%;
+  }
+
+/*ここからチーム*/
+.team-wrapper {
+	padding: 2% 4% 3% 4%;
+	background-color: rgba(246, 246, 246, 0.8);
+}
+
+.team-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+}
+
+.team-des {
+	display: flex;
+	padding: 30px 40px;
+	border: 1px solid #fff;
+	margin: 5% 2% 3% 2%; 
+	box-shadow: 1px 1px 6px 3px #E3E3E3;
+	background-color: #fff;
+}
+
+.img {
+	padding: 10px 20px 10px 0;
+}
+
+.pic {
+	width: 210px;
+	height: auto;
+}
+
+.pic-lp {
+	margin: 10px 0 10px 0;
+}
+
+.pic-ben {
+	margin: 10px 0 10px 0;
+}
+
+.text {
+	flex-wrap: wrap;
+	margin: auto;
+	margin-left: 3.5%;
+	margin-right: 2%;
+}
+
+.text h3 {
+	width: 160px;
+	border-bottom: 3px solid #E3E3E3;
+	padding-bottom: 5px;
+}
+
+.text h4 {
+	font-size: 17px;
+	color:#666;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.text p {
+	font-size: 19px;
+	text-align: justify;
+	margin-top: 2%;
+}
+
+.text-lp h3 {
+	width: 195px;
+}
+
+.text-ben h3 {
+	width: 165px;
+}

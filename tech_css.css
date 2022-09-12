@@ -1,0 +1,61 @@
+/*ここからトップ*/
+.top-wrapper {
+	height: 500px;
+	background-image: url(montreal1.jpg);
+  	background-size: cover;
+  	background-position: 50%; /*x y*/
+  }
+
+/*ここからテクノロジー*/
+.tech-wrapper {
+	padding: 2% 4% 3% 4%;
+	background-color: rgba(246, 246, 246, 0.8);
+}
+
+.tech-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+}
+
+.tech-des-wrapper {
+	padding: 0 3%;
+}
+
+.tech-des1, .tech-des2, .tech-des3 {
+	display: flex;
+	align-items: center;
+	text-align: justify;
+}
+
+.tech-des2 {
+	border-top: 3px solid #e5e5e5;
+	border-bottom: 3px solid #e5e5e5;
+	padding: 5% 0;
+	margin: 1% 0;
+}
+
+.tech-des3 {
+	padding: 3% 0;
+}
+
+.tech-des1 p, .tech-des2 p, .tech-des3 p {
+	font-size: 22px;
+}
+
+.tech-pic1 {
+	width: 35%;
+	height: auto;
+	margin-left: 5%;
+}
+
+.tech-pic2 {
+	width: 45%;
+	height: auto;
+	margin-right: 3.5%;
+}
+
+.tech-pic3 {
+	width: 25%;
+	height: auto;
+	margin-left: 8%;
+}
+

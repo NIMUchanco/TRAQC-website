@@ -1,0 +1,141 @@
+/*ここからトップ*/
+.top-wrapper {
+	height: 500px;
+	background-image: url(montreal1.jpg);
+  	background-size: cover;
+  	background-position: 50%; /*x y*/
+  }
+
+
+/*ここからプロダクト*/
+.products-wrapper {
+	padding: 2% 4% 3% 4%;
+	background-color: rgba(246, 246, 246, 0.8);
+}
+
+.products-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+}
+
+.products {
+	/*display: flex;
+	flex-wrap: wrap; /*アイテムを折り返す*/
+	padding-top: 20px;
+}
+
+.product {
+	padding: 5%;
+	border: 1px solid #fff;
+	margin: 2%;
+	box-shadow: 1px 1px 6px 3px #E3E3E3;
+	background-color: #fff;
+}
+
+.product-pics {
+	border: 2px solid #E3E3E3;
+	background-color: #E3E3E3;
+	display: flex;
+	align-items: center;
+	margin: 0 5% 5% 5%;
+}
+
+.product-pic1 {
+	width: 55%;
+	padding: 5%;
+	display: block;
+	margin-left: 3%; 
+}
+
+.product-pic2 {
+	width: 35%;
+	padding: 5%;
+}
+
+.products-des {
+	margin-left: 5%;
+}
+
+.p-ttl {
+	color: #003C9B;
+	/*border-bottom: 3px solid #E3E3E3;
+	width: 190px;
+	padding-bottom: 5px;*/
+	margin: 0;	
+	font-size: 24px;
+}
+
+.p-txt {
+	margin: 3% 0;
+	/*width: 200px;*/
+	font-size: 22px;
+	text-align: left;
+}
+
+.feature-ttl, .description-ttl, .p-feature ul, .p-description {
+	font-size: 22px;
+	text-align: left;
+}
+
+.feature-ttl, .description-ttl {
+	margin-top: 5%;
+}
+
+.p-description {
+	margin-right: 5%;
+	margin-bottom: 0;
+	text-align: justify;
+}
+
+
+/*Table*/
+table { 
+  border-collapse: collapse;
+  background-color: #fff;
+  width: 95%;
+  margin: 5% auto 0 auto;
+}
+
+caption {
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 1.5%;
+}
+
+tr {
+	text-align: center;
+}
+
+.t-ttl {
+	text-align: left;
+	padding-left: 1.5%;
+	width: 30%;
+}
+
+th, td {
+	font-size: 22px;
+}
+
+.border-btm {
+  border-bottom: 1px solid #666;
+}
+
+.borfer-rgt {
+  border-right: 1px solid #666;
+}
+
+.border-color {
+	background-color: #E3E3E3;
+}
+
+
+/*Reference*/
+.reference {
+	font-size: 20px;
+	margin: 1% 2%;
+}
+
+.border-hddn {
+	border-bottom: 1px solid #666;
+	margin: 5% 0 0 2%;
+	width: 400px;
+}

@@ -1,0 +1,122 @@
+/*ここからトップ*/
+.top-wrapper {
+	height: 500px;
+	background-image: url(montreal_map.jpg);
+  	background-size: cover;
+  	background-position: 50% 50%; /*x y*/
+  }
+
+
+/*ここからコンタクト*/
+.contact-wrapper {
+	padding: 2% 4% 3% 4%;
+	background-color: rgba(246, 246, 246, 0.8);
+}
+
+.contact-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+}
+
+.contact-wrapper p {
+	font-size: 20px
+}
+
+.con-icons {
+	display: flex;
+	padding: 3% 2% 2% 5%;
+}
+
+.con-icon {
+	box-shadow: 1px 1px 6px 3px #E3E3E3;
+	/*border: 3.5px solid rgba(102, 102, 102, 0.8);*/
+	margin: 2%;
+	background-color: #fff;
+	text-align: center;
+	padding: 2% 2.05% 2% 2.05%;
+}
+
+.con-icon1 {
+	padding: 2% 2.5% 2% 2.5% !important;
+}
+
+.con-icon2 {
+	padding: 2% 4.24% 2% 4.24% !important;
+}
+
+.con-icon4 {
+	padding: 2% 3.56% 2% 3.56% !important;
+}
+
+.fa-phone-flip, .fa-envelope, .fa-location-dot, .fa-calendar-check {
+	font-size: 50px;
+	color: rgba(102, 102, 102, 0.9);
+}
+
+.con-ttl {
+	font-weight: bold;
+}
+
+.con-ttle {
+	padding-top: 10%;
+}
+
+.con-txt {
+	font-weight: bold;
+	font-size: 19px;
+	color: rgba(102, 102, 102, 0.9);
+}
+
+.con-icon a:hover {
+	color: #4774B6;
+}
+
+/*Contact-form*/
+.sec2and3 {
+	display: flex;
+	/*flex-wrap: wrap;*/
+	padding: 3% 5% 5% 7%;
+}
+
+.sec3 {
+	padding-left: 5%;
+}
+
+.form {
+	width: 500px;
+	height: 550px;
+	box-shadow: 1px 1px 6px 3px #E3E3E3;
+	/*border: 1px solid #000;*/
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.form-inner {
+	padding: 2% 0 5% 9%;
+}
+
+.form p {
+	color: #fff;
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+.inputs {
+  width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.button {
+	text-align: center;
+}
+
+.button input {
+	width: 90px;
+	height: 40px;
+	margin: 2% auto;
+	cursor: pointer;
+}
+
+.map {
+	box-shadow: 1px 1px 6px 3px #E3E3E3;
+}

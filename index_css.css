@@ -1,0 +1,476 @@
+/*Learn More*/
+.seemore p {
+	text-align: right;
+}
+
+.seemore p a {
+	font-size: 18px;
+	color: #666;
+}
+
+.fa-angle-right {
+	font-size: 15px;
+	margin: 0.5%;
+	margin-bottom: 0;
+}
+
+.seemore p a:hover {
+	color: #4774B6;
+}
+
+/*ここからトップ*/
+.top-wrapper {
+	color: #fff;
+	padding: 5%;
+	background-image: url(top_img.jfif);
+	background-position: center;
+	background-color: #fff; /*背景、余白のカラー*/
+	background-size: 45%;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	/*background: url() no-repeat center*/
+	position: relative;
+	height: 500px;
+	text-align: justify;
+}
+
+.top-wrapper:before { /*透過カラーを重ねる*/
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-wrapper h1 {
+	width: 65%;
+	font-size: 50px;
+	letter-spacing: 2px;
+	line-height: 65px;
+	position: absolute;
+	top: 90px;
+}
+
+.top-wrapper p {
+	width: 85%;
+	font-size: 28px;
+	color: #fff;
+	line-height: 38px;
+	position: absolute;
+	top: 240px;
+	padding-top: 2%;
+}
+
+.btn {
+	padding: 15px;
+	color: #fff;
+	font-size: 12px;
+	background-color: #000;
+	display: inline-block;
+	opacity: 0.9;
+	border-radius: 4px;
+	position: absolute;
+	top: 81%;
+	left: 80%;
+}
+
+.btn:hover {
+	background-color: rgba(0, 60, 155, 0.8);
+}
+
+
+/*ここからプロダクト*/
+.products-wrapper {
+	padding: 3% 4% 1.5% 4%;
+	background-color: rgba(246, 246, 246, 0.8);
+}
+
+.products-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+}
+
+.products {
+	/*display: flex;
+	flex-wrap: wrap; /*アイテムを折り返す*/
+	padding-top: 20px;
+}
+
+.product {
+	width: 60%;
+	padding: 5% 0 3% 5.5%;
+	border: 1px solid #fff;
+	/*margin: 2% 2% 2% 20%;*/
+	margin: 2% auto;
+	box-shadow: 1px 1px 6px 3px #E3E3E3;
+	background-color: #fff;
+}
+
+.products-pic {
+	display: flex;
+}
+
+.product-pic {
+	border: 2px solid #E3E3E3;
+	background-color: #E3E3E3;
+}
+
+.product-pic1 {
+	width: 50%;
+	padding: 2% 3% 3% 2%;
+}
+
+.product-pic2 {
+	width: 40%;
+	height: 50%;
+	padding: 5%;
+}
+
+.products-des {
+	margin-top: 5%;
+}
+
+.p-ttl {
+	color: #003C9B;
+	/*border-bottom: 3px solid #E3E3E3;
+	width: 190px;
+	padding-bottom: 5px;*/
+	margin: 0;
+	font-size: 24px;
+}
+
+.p-txt {
+	margin: 3% 5% 3% 0;
+	/*width: 200px;*/
+	font-size: 22px;
+}
+
+
+
+/*ここからメッセージ*/
+.message-wrapper {
+	padding: 3% 4% 1.5% 4%;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+.message-lists {
+	display: flex;
+	font-size: 20px;
+	color: #fff;
+	padding: 2% 0;
+}
+
+.message-list {
+	flex: auto;
+	width: 100%;
+}
+
+.message-list .fa-solid {
+	font-size: 40px;
+	color: #fff;
+	background-color: #4774B6;
+	border: 1px solid rgba(50, 100, 170, 0.6);
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	/*box-shadow: 1px 1px 6px 3px #666;*/
+}
+
+.fa-gears {
+	padding: 18px 30px 17px 15px;
+}
+
+.fa-clipboard-list {
+	padding: 17px 20px 20px 20px;
+}
+
+.fa-puzzle-piece {
+	/*margin-left: -5%;*/
+	padding: 16px 16px 20px 20px;
+}
+
+.title-1 {
+	width: 250px;
+	border-bottom: 3px solid rgba(50, 100, 170, 0.6);
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 25px;
+	list-style: none;
+	/*margin-left: -15%;*/
+	margin-left: -8%;
+}
+
+.title-2 {
+	width: 300px;
+	border-bottom: 3px solid rgba(50, 100, 170, 0.6);
+	padding: 10px;
+	margin-bottom: 25px;
+	list-style: none;
+	margin-left: -6%;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.title-3 {
+	width: 250px;
+	border-bottom: 3px solid rgba(50, 100, 170, 0.6);
+	padding: 10px;
+	margin-bottom: 25px;
+	list-style: none;
+	margin-left: -8%;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.message-list ul {
+	display: table; /*中央寄せ*/
+  	text-align: left; /*左揃え*/
+ 	margin-left: auto;
+  	margin-right: auto;
+	line-height: 40px;
+}
+
+.list-1 {
+	width: 100%;
+	margin-left: 15%;
+}
+
+.list-2 {
+	margin-left: 25%;
+}
+
+.list-3 {
+	margin-left: 15%;
+}
+
+.seemes p {
+	margin-top: 0;
+}
+
+.seemes p a {
+	color: #AEAEAE;
+}
+
+
+/*ここからチーム*/
+.team-wrapper {
+	padding: 3% 4% 1.5% 4%;
+	background-color: rgba(246, 246, 246, 0.8);
+}
+
+.team-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+}
+
+.marria {
+	display: flex;
+	padding: 5%;
+	border: 1px solid #fff;
+	margin: 5% 2% 3% 2%; 
+	box-shadow: 1px 1px 6px 3px #E3E3E3;
+	background-color: #fff;
+}
+
+.marria-img {
+	width: 85%;
+	padding: 10px 20px 0 0;
+}
+
+.marria_pic {
+	width: 105%;
+	height: auto;
+}
+
+.marria-text {
+	flex-wrap: wrap;
+	margin: auto;
+	margin-left: 3.5%;
+	margin-right: 2%;
+}
+
+.marria-text h3 {
+	width: 160px;
+	border-bottom: 3px solid #E3E3E3;
+	padding-bottom: 5px;
+}
+
+.marria-text h4 {
+	font-size: 17px;
+	color:#666;
+	margin-bottom: 0;
+}
+
+.marria-text p {
+	font-size: 19px;
+	text-align: justify;
+}
+
+
+/*ここからニュース*/
+.news-wrapper {
+	padding: 3% 4% 2% 4%;
+	background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.news-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+	color: #fff;
+}
+
+.news {
+	display: flex;
+	color: #fff;
+}
+
+.news-left {
+	padding: 5% 5% 0 5%;
+	width: 100%;
+}
+
+.news-pic {
+	width: 100%;
+}
+
+.news-right {
+	padding: 2% 5% 0 2%;
+	width: 100%;
+}
+
+.nsd-1 {
+	display: flex;
+	padding-top: 6%;
+}
+
+.nsd-2 {
+	display: flex;
+	padding-top: 5%;
+}
+
+
+.nsd-1 h3 {
+	color: #AEAEAE;
+	margin-top: 5%;
+	margin-right: 5%;
+}
+
+.nsd-2 h3 {
+	color: #AEAEAE;
+	margin-top: 5%;
+	margin-right: 5%;
+}
+
+.news span {
+	color: #666;
+}
+
+.news p {
+	border-left: 2px solid #666;
+	padding-left: 5%;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.seenews p {
+	margin-top: -1%;
+}
+
+.seenews p a {
+	color: #AEAEAE;
+}
+
+
+/*ここからパートナー*/
+.partners-wrapper {
+	padding: 3% 4% 1.5% 4%;
+	background-color: rgba(246, 246, 246, 0.8);
+}
+
+.partners-wrapper .heading {
+	border-bottom: 3px solid rgba(50, 100, 170, 0.5);
+}
+
+.partners-icons {
+	display: flex;
+	justify-content: center;
+	padding: 5% 0 3% 0;
+}
+
+.p-icons-img {
+	width: 100%;
+}
+
+/*.partners-icon {
+	flex: auto;
+}
+
+.partners-icon img {
+	width: 200px;
+	height: 100px;
+	margin: 3%;
+    object-fit: contain; /*ロゴの伸びを解決する*/
+}
+
+/*.c2mi {
+	margin-left: 5% !important;
+}
+
+.memtronik, .oncompte {
+	width: 300px !important;
+	height: 200px !important;
+	margin: 0 !important;
+}
+
+.hub6, .iridis, .nrc {
+	margin-bottom: 4% !important;
+}
+
+
+/*
+.partners-icon img {
+	margin: 3%;
+    object-fit: contain;
+}
+
+.memtronik {
+	margin-bottom: 1% !important;
+}
+
+.oncompte {
+	margin-bottom: 0 !important;
+	margin-left: 2.5% !important;
+}
+
+.c2mi {
+	margin-left: 5% !important;
+}
+
+.hub6 {
+	margin: 3.5% 3% 6.5% 2% !important;
+}
+
+.iridis {
+	margin: 4% 3% 6% 2.5% !important;
+}
+
+.nrc {
+	margin: 4% 1% 6% 2% !important;
+}
+
+.investissement-quebec {
+	margin: 5% 3% 5% 10%!important;
+}
+
+.mcgill {
+	margin: 0% 3% 6% 3% !important;
+}
+
+.ici {
+	margin: 0% 3% 6% 3% !important;
+}
+*/

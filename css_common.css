@@ -1,0 +1,285 @@
+@charset "UTF-8"; 
+/*文字化け避ける*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto; /*Move the block element to the center*/
+	font-family: Arial;
+}
+
+footer li {
+	list-style: none; /* It can remove the mark at the beginning of the list. */
+}
+
+a {
+	text-decoration: none; /*リンクの下線を消す*/
+}
+
+.container {
+	max-width: 1350px;
+	padding: 0 20px;
+	margin: auto;
+}
+
+
+/*ここからヘッダー*/
+header {
+	height: 60px;
+	width: 100%;
+	background-color: rgba(229, 229, 229, 0.8); /*背景の色だけ透過する*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+header .container {
+	display: flex;
+}
+
+nav {
+  margin-left: auto;
+}
+
+.header-left {
+	display: flex;
+}
+
+header .logo {
+	width: 145px;
+	margin: 0 auto;
+	margin-top: 7.5px;
+}
+
+header .language {
+	font-size: 15px;
+	color: #000;
+	flex: auto;
+	margin: auto;
+	padding-left: 10%;
+}
+
+header .language:hover {
+	color: #4774B6;
+}
+
+.header-right {
+	margin-left: auto;
+	margin-right: -20px;
+}
+
+.header-right a {
+	line-height: 60px;
+	padding: 0 25px;
+	margin-left: auto;
+	color: #000;
+	display: block;
+	float: left;
+	transition: all 0.5s;
+}
+
+.header-right a:hover {
+	background-color: #4774B6;
+}
+
+
+/*ヘッダー メニューアイコン*/
+.fa-bars {
+	float: right;
+	font-size: 25px;
+	padding: 18px 0;
+	position: relative;
+  	z-index: 2;
+	display: none !important; /*優先順位を上げる*/
+}
+
+.fa-bars:hover {
+	color: #4774B6;
+  	cursor: pointer;
+}
+
+
+/*ヘッダー メニューアイコン メニュー*/
+.header-menu {
+  color: #000;
+  background-color: rgba(229, 229, 229, 0.8);
+  align-items: center; /*vertical*/
+  justify-content: center; /*horizenal*/
+  width: 30%;
+  position: fixed;
+  top: 60px;
+  right: 0;
+  z-index: 1;
+  display: none; /*hide this menu*/
+}
+
+.header-menu a {
+	line-height: 60px;
+	padding: 0 15%;
+	margin-left: auto;
+	color: #000;
+	display: block;
+	transition: all 0.5s;
+}
+
+.header-menu a:hover {
+	background-color: #4774B6;
+}
+
+
+/*ヘッダー メディアクエリ*/
+@media (max-width: 929px) {
+	.fa-bars {
+		display: block !important;
+	}
+
+	.header-right {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	/*ヘッダー メニューアイコン メニュー*/
+	.header-menu {
+  		width: 35%;
+  	}
+}
+
+@media (max-width: 660px) {
+	/*ヘッダー メニューアイコン メニュー*/
+	.header-menu {
+  		width: 40%;
+  		height: 46.5%;
+  	}
+}
+
+@media (max-width: 560px) {
+	/*ヘッダー メニューアイコン メニュー*/
+	.header-menu {
+  		width: 45%;
+  	}
+}
+
+@media (max-width: 500px) {
+	/*ヘッダー メニューアイコン メニュー*/
+	.header-menu {
+  		width: 50%;
+  	}
+}
+
+
+
+/*ここからフッター*/
+footer {
+	/*border-top: 3px solid #E3E3E3;*/
+	background-color: #e5e5e5;
+	padding: 2% 2% 0.5% 2%;
+}
+
+footer .logo {
+	width: 125px;
+	margin: 3% 3% 0 3%;
+}
+
+.footer-menu {
+	display: flex;
+}
+
+.footer-left, .footer-right {
+	flex: auto;
+}
+
+.footer-list-1 {
+	font-size: 18px;
+	line-height: 35px;
+	margin: 3%;
+	font-weight: bold;
+}
+
+.footer-list-1 a {
+	color: #666;
+	opacity: 0.8;
+}
+
+.footer-list-1 span {
+	color: #000;
+}
+
+.footer-list-1 span:hover {
+	color: #4774B6;
+}
+
+.footer-right-wrapper {
+	display: flex;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 3% 2%;
+}
+
+.footer-right-wrapper .ttl {
+	color: #AEAEAE;
+	font-size: 20px;
+	padding-bottom: 3%;
+}
+
+.footer-right-wrapper span {
+	color: #000;
+	margin-left: 5%; 
+}
+
+.footer-right-wrapper span:hover {
+	color: #4774B6;
+}
+
+.footer-list-2, .footer-list-3 {
+	width: 50%;
+	font-weight: bold;
+}
+
+.f-ttl {
+	color: #666;
+	opacity: 0.8;
+}
+
+.fa-brands {
+	color: #fff;
+	background-color: #666; 
+	font-size: 25px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 4px;
+	margin: 1%;
+}
+
+.fa-brands:hover {
+	background-color: #4774B6;
+}
+
+.fa-facebook-f {
+	padding: 4px 9px;
+	margin-left: 8%
+}
+
+.fa-linkedin-in {
+	padding: 4px 5.5px;
+	margin-left: 0%
+}
+
+.cmark {
+	text-align: right;
+	margin: 5% 5% 0 0;
+	font-size: 16px;
+}
+
+.cmark p {
+	color: #666;
+	opacity: 0.8;
+}
+
+/*.cmark p a:hover {
+	color: #4774B6;} /*リンクにマウスが乗ったとき、色を付ける*/
