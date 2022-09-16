@@ -1,13 +1,13 @@
-/*ここからトップ*/
+/*Top*/
 .top-wrapper {
 	height: 500px;
-	background-image: url(montreal_map.jpg);
+	background-image: url(./images/montreal_map.jpg);
   	background-size: cover;
   	background-position: 50% 50%; /*x y*/
   }
 
 
-/*ここからコンタクト*/
+/*Contact*/
 .contact-wrapper {
 	padding: 2% 4% 3% 4%;
 	background-color: rgba(246, 246, 246, 0.8);
@@ -23,7 +23,7 @@
 
 .con-icons {
 	display: flex;
-	padding: 3% 2% 2% 5%;
+	padding: 3% 2% 2% 8%;
 }
 
 .con-icon {
@@ -74,7 +74,7 @@
 .sec2and3 {
 	display: flex;
 	/*flex-wrap: wrap;*/
-	padding: 3% 5% 5% 7%;
+	padding: 3% 5% 5% 9%;
 }
 
 .sec3 {

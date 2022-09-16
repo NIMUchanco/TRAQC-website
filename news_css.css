@@ -1,12 +1,12 @@
-/*ここからトップ*/
+/*Top*/
 .top-wrapper {
 	height: 500px;
-	background-image: url(montreal2.jpg);
+	background-image: url(./images/montreal2.jpg);
   	background-size: cover;
   	background-position: 50% 30%; /*x y*/
 }
 
-/*ここからニュース*/
+/*News*/
 .news-wrapper {
 	padding: 2% 4% 3% 4%;
 	background-color: rgba(246, 246, 246, 0.8); 

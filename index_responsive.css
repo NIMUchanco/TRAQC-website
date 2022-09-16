@@ -68,7 +68,7 @@
 		left: 75%;
 	}
 
-	/*Product*/
+	/*Products*/
 	.product {
 		width: 65%;
 	}
@@ -112,7 +112,7 @@
 		background-size: 70%;
 	}
 
-	/*Product*/
+	/*Products*/
 	.product {
 		padding-left: 6%;
 	}
@@ -152,7 +152,7 @@
 }
 
 @media (max-width: 1032px) {
-	/*Product*/
+	/*Products*/
 	.product {
 		width: 70%;
 	}
@@ -241,6 +241,17 @@
 		font-size: 40px;
 		width: 80%;
 	}
+
+	/*Partners*/
+	.partners-icons {
+		background: url(./images/joined_logos_2.png) no-repeat center;
+		padding: 35% 0;
+		background-size: 100%;
+	}
+
+	.p-icons-img {
+		display: none;
+	}
 }
 
 @media (max-width: 920px) {
@@ -266,7 +277,7 @@
 		padding-top: 0;
 	}
 
-	/*プロダクト*/
+	/*Products*/
 	.product {
 		width: 80%;
 		padding-left: 7%;
@@ -313,7 +324,7 @@
 		margin-top: 0;
 	}
 
-	/*プロダクト*/
+	/*Products*/
 	.product {
 		width: 85%;
 		padding-left: 8%;
@@ -361,6 +372,7 @@
 		background-size: 90%;
 	}
 }
+
 		
 /*Smartphone size*/
 @media (max-width: 714px) {
@@ -374,7 +386,7 @@
 		left: 70%;
 	}
 
-	/*Product*/
+	/*Products*/
 	.product {
 		width: 90%;
 	}
@@ -393,6 +405,12 @@
     margin-top: 0%;
 	}
 
+	/*Partners*/
+	.partners-icons {
+		background: url(./images/joined_logos_2.png) no-repeat center;
+		padding: 40% 0;
+		background-size: 110%;
+	}
 }
 
 @media (max-width: 699px) {
@@ -450,7 +468,7 @@
 		top: 230px;
 	}
 
-	/*Product*/
+	/*Products*/
 	.product {
 		width: 100%;
 	}
@@ -472,8 +490,6 @@
 		border: none;
     	padding-left: 0%;
 	}
-
-
 }
 
 @media (max-width: 633px) {
@@ -490,7 +506,7 @@
 		left: 65%;
 	}
 
-	 /*プロダクト*/
+	 /*Products*/
 	.product {
 		padding-left: 9%;
 	}
@@ -500,10 +516,18 @@
 		width: 75%;
 	}
 
+	/*Partners*/
+	.partners-icons {
+		background: url(./images/joined_logos_3.png) no-repeat center;
+		padding: 40% 0;
+		background-size: 110%;
+	}
+}
+
 }
 
 @media (max-width: 565px) {
-	/*トップ*/
+	/*Top*/
 	.top-wrapper h1 {
 		width: 85%;
 	}
@@ -512,25 +536,24 @@
 	.marria {
 		width: 85%;
 	}
-
 }
 
 @media (max-width: 552px) {
-	/*トップ*/
+	/*Top*/
 	.top-wrapper h1 {
 		letter-spacing: 1px;
 	}
 }
 
 @media (max-width: 541px) {
-	/*トップ*/
+	/*Top*/
 	.top-wrapper {
 		height: 515px;
 	}
 }
 
 @media (max-width: 517px) {
-	/*トップ*/
+	/*Top*/
 	.top-wrapper h1 {
 		letter-spacing: 0;
 	}
@@ -543,7 +566,7 @@
 }
 
 @media (max-width: 481px) {
-	/*トップ*/
+	/*Top*/
 	.top-wrapper h1 {
 		font-size: 27px;
 	}

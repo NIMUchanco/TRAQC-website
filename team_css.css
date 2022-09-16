@@ -1,12 +1,14 @@
-/*ここからトップ*/
+/*Top*/
 .top-wrapper {
 	height: 500px;
-	background-image: url(team.jpg);
-	background-position: center;
-  	background-size: 30%;
+	background-image: url(./images/team.jpg);
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+  	background-size: 50%;
+  	background-color: #3563AA;
   }
 
-/*ここからチーム*/
+/*Team*/
 .team-wrapper {
 	padding: 2% 4% 3% 4%;
 	background-color: rgba(246, 246, 246, 0.8);

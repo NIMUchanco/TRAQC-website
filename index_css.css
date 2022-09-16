@@ -18,11 +18,11 @@
 	color: #4774B6;
 }
 
-/*ここからトップ*/
+/*Top*/
 .top-wrapper {
 	color: #fff;
 	padding: 5%;
-	background-image: url(top_img.jfif);
+	background-image: url(./images/top_img.jfif);
 	background-position: center;
 	background-color: #fff; /*背景、余白のカラー*/
 	background-size: 45%;
@@ -81,7 +81,7 @@
 }
 
 
-/*ここからプロダクト*/
+/*Products*/
 .products-wrapper {
 	padding: 3% 4% 1.5% 4%;
 	background-color: rgba(246, 246, 246, 0.8);
@@ -148,7 +148,7 @@
 
 
 
-/*ここからメッセージ*/
+/*Message*/
 .message-wrapper {
 	padding: 3% 4% 1.5% 4%;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -258,7 +258,7 @@
 }
 
 
-/*ここからチーム*/
+/*Team*/
 .team-wrapper {
 	padding: 3% 4% 1.5% 4%;
 	background-color: rgba(246, 246, 246, 0.8);
@@ -312,7 +312,7 @@
 }
 
 
-/*ここからニュース*/
+/*News*/
 .news-wrapper {
 	padding: 3% 4% 2% 4%;
 	background-color: rgba(0, 0, 0, 0.8); 
@@ -385,7 +385,7 @@
 }
 
 
-/*ここからパートナー*/
+/*Partners*/
 .partners-wrapper {
 	padding: 3% 4% 1.5% 4%;
 	background-color: rgba(246, 246, 246, 0.8);
