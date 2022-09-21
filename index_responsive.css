@@ -41,12 +41,27 @@
 	.top-wrapper {
 		background-size: 60%;
 	}
+
+	/*Products*/
+	.seemore p a {
+		font-size: 12px;
+	}
+	.p-txt {
+		margin-bottom: 8%;
+	}
 }
 
 @media (max-width: 1250px) {
 	/*Team*/
 	.marria-text {
 		width: 250%;
+	}
+}
+
+@media (max-width: 1201px) {
+	/*Top*/
+	.btn {
+		top: 85%;
 	}
 }
 
@@ -74,11 +89,15 @@
 	}
 
 	/*Team*/
+	.team-wrapper {
+		padding-bottom: 17%;
+	}
+
 	.marria {
 		display: block;
 		width: 50%;
 		margin: 5% auto 3% auto;
-		padding: 3% 4% 2% 4%;
+		padding: 3% 4% 8% 4%;
 	}
 
 	.marria-img {
@@ -96,13 +115,19 @@
 		margin: 3% auto;
 	}
 
+	.seeteam p {
+		text-align: center;
+		margin: -9% auto; 
+	}
+
+
 	/*News*/
 	.nsd-2-3 {
 		display: none;
 	}
 
 	.seenews p {
-	margin-top: -2%;
+		margin-top: -4.5%;
 	}
 }
 
@@ -144,13 +169,6 @@
 
 }
 
-@media (max-width: 1040px) {
-	/*Top*/
-	.btn {
-		top: 85%;
-	}
-}
-
 @media (max-width: 1032px) {
 	/*Products*/
 	.product {
@@ -160,6 +178,21 @@
 	/*Message*/
 	.message-wrapper {
 		padding-left: 0;
+	}
+
+	/*Team*/
+	.marria {
+		padding-bottom: 10%;
+	}
+
+	.seeteam p {
+		margin: -10% auto; 
+	}
+
+	/*News*/
+	.seenews p {
+		margin-top: -3%;
+	}
 }
 
 @media (max-width: 1000px) {
@@ -167,9 +200,26 @@
 	.top-wrapper {
 		background-size: 75%;
 	}
+
+	/*Message*/
+	.seemes p {
+		margin-left: 3%;
+	}
+}
+
+@media (max-width: 980px) {
+	/*Message*/
+	.seemes p {
+		margin-left: 5%;
+	}
 }
 
 @media (max-width: 960px) {
+	/*Products*/
+	.products-wrapper {
+		padding-bottom: 3%;
+	}
+
 	/*Message*/
 	.message-wrapper {
 		padding-left: 4%;
@@ -189,6 +239,11 @@
 
 	.m-li {
 		font-size: 22px;
+	}
+
+	.seemes p {
+		margin-left: 0;
+		text-align: right; 
 	}
 
 	/*Team*/
@@ -226,6 +281,10 @@
 
 	.nsd-2-1 h3 {
     	margin-top: 4%;
+	}
+
+	.seenews p {
+		margin: 3%;
 	}
 }
 
@@ -284,8 +343,17 @@
 	}
 
 	/*Team*/
+	.team-wrapper {
+		padding-bottom: 20%;
+	}
+
 	.marria {
 		width: 65%;
+		padding-bottom: 11%;
+	}
+	
+	.seeteam p {
+		margin: -11% auto; 
 	}
 
 	/*News*/
@@ -306,6 +374,11 @@
 	.top-wrapper {
 		background-size: 85%;
 		background-position: 50% -50%;
+	}
+
+	/*Message*/
+	.message-wrapper {
+		padding: 5% 4% 4.5% 4%;
 	}
 }
 
@@ -333,6 +406,11 @@
 	/*Team*/
 	.marria {
 		width: 70%;
+		padding-bottom: 12%;
+	}
+	
+	.seeteam p {
+		margin: -12% auto; 
 	}
 
 	/*News*/
@@ -347,7 +425,6 @@
 	.nsd-1 h3, .nsd-2 h3 {
     	margin-top: 5%;
 	}
-
 }
 
 @media (max-width: 760px) {
@@ -371,6 +448,12 @@
 	.top-wrapper {
 		background-size: 90%;
 	}
+
+	/*Products*/
+	.products-wrapper {
+		padding-bottom: 4%;
+	}
+
 }
 
 		
@@ -405,6 +488,10 @@
     margin-top: 0%;
 	}
 
+	.seenews p {
+		margin: 4%;
+	}
+
 	/*Partners*/
 	.partners-icons {
 		background: url(./images/joined_logos_2.png) no-repeat center;
@@ -416,7 +503,7 @@
 @media (max-width: 699px) {
 	/*Team*/
 	.marria {
-		padding: 5% 0;
+		padding: 3% 5% 13% 5%;
 		width: 65%;
 	}
 
@@ -427,6 +514,10 @@
 
 	.marria-text {
 		text-align: center;
+	}
+
+	.marria-text h4 {
+		margin: 0;
 	}
 
 	.marria-text h3 {
@@ -442,6 +533,19 @@
 	/*Top*/
 	.top-wrapper {
 		background-position: 50% -100%;
+	}
+
+	/*Team*/
+	.team-wrapper {
+		padding-bottom: 23%;
+	}
+
+	.marria {
+		padding-bottom: 15%;
+	}
+
+	.seeteam {
+		margin: -13% auto;
 	}
 }
 
@@ -471,6 +575,11 @@
 	/*Products*/
 	.product {
 		width: 100%;
+	}
+
+	/*Message*/
+	.seemes p {
+		margin-right: -3%;
 	}
 
 	/*News*/
@@ -516,13 +625,21 @@
 		width: 75%;
 	}
 
+	/*News*/
+	.news-wrapper {
+		padding-bottom: 4%;
+	}
+
+	.seenews p {
+		margin-top: 8%;
+	}
+
 	/*Partners*/
 	.partners-icons {
 		background: url(./images/joined_logos_3.png) no-repeat center;
 		padding: 40% 0;
 		background-size: 110%;
 	}
-}
 
 }
 
@@ -532,9 +649,28 @@
 		width: 85%;
 	}
 
+	/*Products*/
+	.products-wrapper {
+		padding-bottom: 5%;
+	}
+
 	/*Team*/
 	.marria {
 		width: 85%;
+		padding-bottom: 16%;
+	}
+
+	.team-wrapper {
+		padding-bottom: 24%;
+	}
+
+	.seeteam {
+		margin: -14% auto;
+	}
+
+	/*News*/
+	.news-wrapper {
+		padding-bottom: 5%;
 	}
 }
 
@@ -550,6 +686,20 @@
 	.top-wrapper {
 		height: 515px;
 	}
+
+	/*Team*/
+	.marria {
+		width: 85%;
+		padding-bottom: 17%;
+	}
+
+	.team-wrapper {
+		padding-bottom: 25%;
+	}
+
+	.seeteam {
+		margin: -15% auto;
+	}
 }
 
 @media (max-width: 517px) {
@@ -561,6 +711,15 @@
 	/*Team*/
 	.marria {
 		width: 90%;
+		padding-bottom: 18%;
+	}
+
+	.team-wrapper {
+		padding-bottom: 26%;
+	}
+
+	.seeteam {
+		margin: -16% auto;
 	}
 
 }

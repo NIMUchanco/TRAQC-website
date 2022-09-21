@@ -4,17 +4,22 @@
 }
 
 .seemore p a {
-	font-size: 18px;
-	color: #666;
+	font-size: 12.5px;
+	color: #fff;
 }
 
-.fa-angle-right {
-	font-size: 15px;
-	margin: 0.5%;
-	margin-bottom: 0;
+.seemore-btn {
+	padding: 15px;
+	background-color: #666;
+	opacity: 0.9;
+	border-radius: 4px;
 }
 
-.seemore p a:hover {
+.seemore-btn:hover {
+	background-color: rgba(0, 60, 155, 0.8);
+}
+
+.seemore-btn p a:hover {
 	color: #4774B6;
 }
 
@@ -83,7 +88,7 @@
 
 /*Products*/
 .products-wrapper {
-	padding: 3% 4% 1.5% 4%;
+	padding: 3% 4% 2% 4%;
 	background-color: rgba(246, 246, 246, 0.8);
 }
 
@@ -141,16 +146,19 @@
 }
 
 .p-txt {
-	margin: 3% 5% 3% 0;
+	margin: 3% 5% 5% 0;
 	/*width: 200px;*/
 	font-size: 22px;
 }
 
+.seemore-btn-pro {
+	margin-right: 8%;
+}
 
 
 /*Message*/
 .message-wrapper {
-	padding: 3% 4% 1.5% 4%;
+	padding: 3% 4% 2.5% 4%;
 	background-color: rgba(0, 0, 0, 0.8);
 	text-align: center;
 }
@@ -250,17 +258,14 @@
 }
 
 .seemes p {
+	text-align: center;
 	margin-top: 0;
-}
-
-.seemes p a {
-	color: #AEAEAE;
 }
 
 
 /*Team*/
 .team-wrapper {
-	padding: 3% 4% 1.5% 4%;
+	padding: 3% 4% 7% 4%;
 	background-color: rgba(246, 246, 246, 0.8);
 }
 
@@ -311,10 +316,14 @@
 	text-align: justify;
 }
 
+.seeteam p {
+	margin: -8% 8% 0 0;
+}
+
 
 /*News*/
 .news-wrapper {
-	padding: 3% 4% 2% 4%;
+	padding: 3% 4%;
 	background-color: rgba(0, 0, 0, 0.8); 
 }
 
@@ -377,11 +386,7 @@
 }
 
 .seenews p {
-	margin-top: -1%;
-}
-
-.seenews p a {
-	color: #AEAEAE;
+	margin-right: 5%;
 }
 
 
