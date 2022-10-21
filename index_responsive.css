@@ -1,34 +1,28 @@
 /*PC size*/
-
-@media (min-width: 1500px) {
-	/*Top*/
-	.top-wrapper p {
-		width: 80%;
-	}
-}
-
-@media (max-width: 1499px) {
-	/*Top*/
+@media all and (min-width: 1401px) {
 	.top-wrapper {
+		
 		background-size: 50%;
+		background-position: 55% 25%;
 	}
 }
 
-@media (max-width: 1400px) {
+@media all and (max-width: 1400px) {
 	/*Top*/
 	.top-wrapper {
 		background-size: 55%;
+		background-position: 55% 20%;
 	}
 }
 
-@media (max-width: 1330px) {
+@media all and (max-width: 1330px) {
 	/*Team*/
 	.marria-img {
 		width: 90%;
 	}
 }
 
-@media (max-width: 1308px) {
+@media all and (max-width: 1308px) {
 	/*Team*/
 	.marria-text {
 		width: 280%;
@@ -36,7 +30,7 @@
 
 }
 
-@media (max-width: 1300px) {
+@media all and (max-width: 1300px) {
 	/*Top*/
 	.top-wrapper {
 		background-size: 60%;
@@ -51,28 +45,28 @@
 	}
 }
 
-@media (max-width: 1250px) {
+@media all and (max-width: 1250px) {
 	/*Team*/
 	.marria-text {
 		width: 250%;
 	}
 }
 
-@media (max-width: 1201px) {
+@media all and (max-width: 1201px) {
 	/*Top*/
 	.btn {
 		top: 85%;
 	}
 }
 
-@media (max-width: 1200px) {
+@media all and (max-width: 1200px) {
 	/*Top*/
 	.top-wrapper {
 		background-size: 65%;
 	}
 }
 
-@media (max-width: 1194px) {
+@media all and (max-width: 1194px) {
 	/*Top*/
 	.top-wrapper h1 {
 		/*font-size: 45px;*/
@@ -131,7 +125,7 @@
 	}
 }
 
-@media (max-width: 1100px) {
+@media all and (max-width: 1100px) {
 	/*Top*/
 	.top-wrapper {
 		background-size: 70%;
@@ -148,7 +142,7 @@
 	}
 }
 
-@media (max-width: 1086px) {
+@media all and (max-width: 1086px) {
 	/*Top*/
 	.top-wrapper {
 		height: 500px;
@@ -166,10 +160,16 @@
 	.btn {
 		padding: 12px;
 	}
-
 }
 
-@media (max-width: 1032px) {
+@media all and (max-width: 1043px) {
+	/*News*/
+	.seenews p {
+		margin-top: 0;
+	}
+}
+
+@media all and (max-width: 1032px) {
 	/*Products*/
 	.product {
 		width: 70%;
@@ -188,17 +188,25 @@
 	.seeteam p {
 		margin: -10% auto; 
 	}
-
-	/*News*/
-	.seenews p {
-		margin-top: -3%;
-	}
 }
 
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
 	/*Top*/
 	.top-wrapper {
 		background-size: 75%;
+	}
+
+	.btn {
+		font-size: 14px;
+	}
+
+	/*Products*/
+	.sec-ttl {
+		font-size: 26px;
+	}
+	
+	.p-txt {
+		font-size: 22px;
 	}
 
 	/*Message*/
@@ -207,14 +215,14 @@
 	}
 }
 
-@media (max-width: 980px) {
+@media all and (max-width: 980px) {
 	/*Message*/
 	.seemes p {
 		margin-left: 5%;
 	}
 }
 
-@media (max-width: 960px) {
+@media all and (max-width: 960px) {
 	/*Products*/
 	.products-wrapper {
 		padding-bottom: 3%;
@@ -290,11 +298,8 @@
 
 
 /*Tablet size*/
-@media (max-width: 943px) {
+@media all and (max-width: 943px) {
 	/*Top*/
-	.top-wrapper {
-		background-position: 50% -100%;
-	}
 
 	.top-wrapper h1 {
 		font-size: 40px;
@@ -313,27 +318,32 @@
 	}
 }
 
-@media (max-width: 920px) {
+@media all and (max-width: 920px) {
 	/*Top*/
 	.top-wrapper {
 		background-size: 80%;
-		background-position: 50% -50%;
+		background-position: 50% 0;
 	}
 }
 
-@media (max-width: 869px) {
+@media all and (max-width: 869px) {
 	/*Top*/
 	.top-wrapper {
-		height: 480px;
+		height: 450px;
 	}
 
 	.top-wrapper h1 {
-		margin-top: 0;
+		margin: 0;
 	}
 
 	.top-wrapper p {
 		font-size: 22px;
 		padding-top: 0;
+		margin: 0;
+	}
+
+	.btn {
+		font-size: 12px;
 	}
 
 	/*Products*/
@@ -362,18 +372,10 @@
 	}
 }
 
-@media (max-width: 840px) {
-	/*Top*/
-	.top-wrapper {
-		background-position: 50% -100%;
-	}
-}
-
-@media (max-width: 830px) {
+@media all and (max-width: 830px) {
 	/*Top*/
 	.top-wrapper {
 		background-size: 85%;
-		background-position: 50% -50%;
 	}
 
 	/*Message*/
@@ -382,11 +384,10 @@
 	}
 }
 
-@media (max-width: 797px) {
+@media all and (max-width: 797px) {
 	/*Top*/
 	.top-wrapper {
 		height: 450px;
-		background-position: 50% 0;
 	}
 
 	.top-wrapper h1 {
@@ -427,7 +428,13 @@
 	}
 }
 
-@media (max-width: 760px) {
+@media all and (max-width: 760px) {
+	/*Top*/
+	.top-wrapper {
+		height: 480px;
+		background-size: 95%;
+	}
+
 	/*Team*/
 	.marria-img {
 		width: 55%;
@@ -443,12 +450,7 @@
 	}
 }
 
-@media (max-width: 740px) {
-	/*Top*/
-	.top-wrapper {
-		background-size: 90%;
-	}
-
+@media all and (max-width: 740px) {
 	/*Products*/
 	.products-wrapper {
 		padding-bottom: 4%;
@@ -458,10 +460,9 @@
 
 		
 /*Smartphone size*/
-@media (max-width: 714px) {
+@media all and (max-width: 714px) {
 	/*Top*/
 	.top-wrapper {
-		height: 480px;
 		background-size: 100%;
 	}
 
@@ -500,7 +501,7 @@
 	}
 }
 
-@media (max-width: 699px) {
+@media all and (max-width: 699px) {
 	/*Team*/
 	.marria {
 		padding: 3% 5% 13% 5%;
@@ -529,7 +530,7 @@
 	}
 }
 
-@media (max-width: 680px) {
+@media all and (max-width: 680px) {
 	/*Top*/
 	.top-wrapper {
 		background-position: 50% -100%;
@@ -549,7 +550,7 @@
 	}
 }
 
-@media (max-width: 660px) {
+@media all and (max-width: 660px) {
 	/*Top*/
 	.top-wrapper {
 		background-position: 50% -1000%;
@@ -557,7 +558,7 @@
 }
 
 
-@media (max-width: 656px) {
+@media all and (max-width: 656px) {
 	/*Top*/
 	.top-wrapper {
 		background-position: 50% 70%;
@@ -601,7 +602,7 @@
 	}
 }
 
-@media (max-width: 633px) {
+@media all and (max-width: 633px) {
 	/*Top*/
 	.top-wrapper h1 {
 		font-size: 28px;
@@ -643,10 +644,19 @@
 
 }
 
-@media (max-width: 565px) {
+@media all and (max-width: 565px) {
 	/*Top*/
+	.top-wrapper {
+		height: 500px;
+	}
+
 	.top-wrapper h1 {
 		width: 85%;
+		letter-spacing: 0;
+	}
+
+	.btn {
+		top: 87%;
 	}
 
 	/*Products*/
@@ -674,14 +684,7 @@
 	}
 }
 
-@media (max-width: 552px) {
-	/*Top*/
-	.top-wrapper h1 {
-		letter-spacing: 1px;
-	}
-}
-
-@media (max-width: 541px) {
+@media all and (max-width: 541px) {
 	/*Top*/
 	.top-wrapper {
 		height: 515px;
@@ -702,7 +705,7 @@
 	}
 }
 
-@media (max-width: 517px) {
+@media all and (max-width: 517px) {
 	/*Top*/
 	.top-wrapper h1 {
 		letter-spacing: 0;
@@ -724,7 +727,7 @@
 
 }
 
-@media (max-width: 481px) {
+@media all and (max-width: 481px) {
 	/*Top*/
 	.top-wrapper h1 {
 		font-size: 27px;

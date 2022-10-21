@@ -11,15 +11,15 @@ body {
 }
 
 footer li {
-	list-style: none; /* It can remove the mark at the beginning of the list. */
+	list-style: none; /*Remove the mark*/
 }
 
 a {
-	text-decoration: none; /*リンクの下線を消す*/
+	text-decoration: none; /*Remove the underline*/
 }
 
 .container {
-	max-width: 1350px;
+	width: 100%;
 	padding: 0 20px;
 	margin: auto;
 }
@@ -27,7 +27,7 @@ a {
 
 /*Header*/
 header {
-	height: 60px;
+	height: 65px;
 	width: 100%;
 	background-color: rgba(229, 229, 229, 0.8); /*背景の色だけ透過する*/
 	position: fixed;
@@ -53,7 +53,7 @@ nav {
 header .logo {
 	width: 145px;
 	margin: 0 auto;
-	margin-top: 7.5px;
+	margin-top: 9px;
 }
 
 header .language {
@@ -74,7 +74,7 @@ header .language:hover {
 }
 
 .header-right a {
-	line-height: 60px;
+	line-height: 65px;
 	padding: 0 25px;
 	margin-left: auto;
 	color: #000;
@@ -112,7 +112,7 @@ header .language:hover {
   justify-content: center; /*horizenal*/
   width: 30%;
   position: fixed;
-  top: 60px;
+  top: 65px;
   right: 0;
   z-index: 1;
   display: none; /*hide this menu*/
