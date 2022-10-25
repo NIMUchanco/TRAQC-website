@@ -1,7 +1,7 @@
 /*Top*/
 .top-wrapper {
 	height: 500px;
-	background-image: url(./images/montreal1.jpg);
+	background-image: url(../images/montreal1.jpg);
   	background-size: cover;
   	background-position: 50%; /*x y*/
   }
@@ -26,7 +26,7 @@
 .product {
 	padding: 5%;
 	border: 1px solid #fff;
-	margin: 2%;
+	margin: 5%;
 	box-shadow: 1px 1px 6px 3px #E3E3E3;
 	background-color: #fff;
 }
@@ -145,6 +145,10 @@ th, td {
 @media all and (max-width: 869px) {
 	.top-wrapper {
 		height: 450px;
+	}
+
+	.product {
+		margin: 2%;
 	}
 
 	.product-pic1 {

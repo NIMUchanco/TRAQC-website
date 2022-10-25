@@ -1,7 +1,7 @@
 /*Top*/
 .top-wrapper {
 	height: 500px;
-	background-image: url(./images/montreal_map.jpg);
+	background-image: url(../images/montreal_map.jpg);
   	background-size: cover;
   	background-position: 50% 50%; /*x y*/
   }

@@ -1,7 +1,7 @@
 /*Top*/
 .top-wrapper {
 	height: 500px;
-	background-image: url(./images/team.jpg);
+	background-image: url(../images/team.jpg);
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
   	background-size: 50%;
