@@ -1,0 +1,12 @@
+p, .message-wrapper ul li {
+	font-weight: normal;
+}
+
+/*Top*/
+.top-wrapper h1 {
+	width: 80%;
+}
+
+.top-wrapper p {
+	width: 81%;
+}

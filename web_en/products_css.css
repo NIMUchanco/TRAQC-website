@@ -61,7 +61,7 @@
 	width: 190px;
 	padding-bottom: 5px;*/
 	margin: 0;	
-	font-size: 24px;
+	font-size: 26px;
 }
 
 .p-txt {
@@ -233,6 +233,10 @@ th, td {
 @media all and (max-width: 599px) {
 	.heading h2 {
 		font-size: 22px;
+	}
+
+	.p-ttl {
+		font-size: 24px;
 	}
 
 	.t-ttl {

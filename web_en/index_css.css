@@ -36,7 +36,7 @@
 	/*background: url() no-repeat center*/
 	position: relative;
 	height: 505px;
-	text-align: justify center;
+	text-align: justify;
 }
 
 .top-wrapper:before { /*透過カラーを重ねる*/
