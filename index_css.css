@@ -26,7 +26,7 @@
 /*Top*/
 .top-wrapper {
 	color: #fff;
-	padding: 10%;
+	padding-left: 8%;
 	background-image: url(./images/top_img.jfif);
 	background-position: center;
 	background-color: #fff; /*背景、余白のカラー*/
@@ -79,7 +79,7 @@
 	border-radius: 4px;
 	position: absolute;
 	top: 81%;
-	left: 80%;
+	left: 78%;
 }
 
 .btn:hover {

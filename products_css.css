@@ -142,7 +142,11 @@ th, td {
 
 
 /*Responsive design*/
-@media (max-width: 869px) {
+@media all and (max-width: 869px) {
+	.top-wrapper {
+		height: 450px;
+	}
+
 	.product-pic1 {
 		width: 60%;
 		margin-left: 0;
@@ -166,13 +170,17 @@ th, td {
 	}
 }
 
-@media (max-width: 799px) {
+@media all and (max-width: 799px) {
 	.t-ttl {
 		width: 35%;
 	}
 }
 
-@media (max-width: 699px) {
+@media all and (max-width: 699px) {
+	.top-wrapper {
+		height: 400px;
+	}
+
 	.product-pic1 {
 		padding: 3% 4% 3% 1%;
 	}
@@ -190,7 +198,7 @@ th, td {
 	}
 }
 
-@media (max-width: 629px) {
+@media all and (max-width: 629px) {
 	.product-pics {
 		flex-direction: column;
 	}
@@ -218,13 +226,17 @@ th, td {
 	}
 }
 
-@media (max-width: 599px) {
+@media all and (max-width: 599px) {
+	.heading h2 {
+		font-size: 22px;
+	}
+
 	.t-ttl {
 		width: 45%;
 	}
 }
 
-@media (max-width: 539px) {
+@media all and (max-width: 539px) {
 	.product-pic1 {
 		width: 90%;
 		padding: 7% 5% 5% 5%;
@@ -236,8 +248,22 @@ th, td {
 	}
 }
 
-@media (max-width: 509px) {
+@media all and (max-width: 509px) {
+	.top-wrapper {
+		height: 350px;
+	}
+
 	.t-ttl {
 		width: 50%;
+	}
+
+	th, td {
+		font-size: 20px;
+	}
+}
+
+@media all and (max-width: 400px) {
+	th, td {
+		font-size: 18px;
 	}
 }

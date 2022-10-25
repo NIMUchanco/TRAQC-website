@@ -133,7 +133,7 @@ header .language:hover {
 
 
 /*Header responsive design*/
-@media (max-width: 929px) {
+@media all and (max-width: 929px) {
 	.fa-bars {
 		display: block !important;
 	}
@@ -143,14 +143,14 @@ header .language:hover {
 	}
 }
 
-@media (max-width: 800px) {
+@media all and (max-width: 800px) {
 	/*Header menu-icon menu*/
 	.header-menu {
   		width: 35%;
   	}
 }
 
-@media (max-width: 660px) {
+@media all and (max-width: 660px) {
 	/*Header menu-icon menu*/
 	.header-menu {
   		width: 40%;
@@ -158,14 +158,26 @@ header .language:hover {
   	}
 }
 
-@media (max-width: 560px) {
+@media all and (max-width: 560px) {
+	/*Header LOGO*/
+	header .logo {
+    	width: 130px;
+    	margin: 0 auto;
+    	margin-top: 10px;
+	}
+
+	header .language {
+		padding: 3% 0 0 3.5%;
+	}
+}
+
 	/*Header menu-icon menu*/
 	.header-menu {
   		width: 45%;
   	}
 }
 
-@media (max-width: 500px) {
+@media all and (max-width: 500px) {
 	/*Header menu-icon menu*/
 	.header-menu {
   		width: 50%;
@@ -287,7 +299,7 @@ footer .logo {
 
 
 /*Footer responsive design*/
-@media (max-width: 1090px) {
+@media all and (max-width: 1090px) {
 	footer {
     	padding-right: 5%;
     }
@@ -305,26 +317,26 @@ footer .logo {
     }
 }
 
-@media (max-width: 1009px) {
+@media all and (max-width: 1009px) {
 	.cmark p {
     	margin-top: 12%;
     	margin-right: -10%;
     }
 }
 
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
 	footer {
     	padding-right: 8%;
     }
 }
 
-@media (max-width: 899px) {
+@media all and (max-width: 899px) {
     .footer-list-1 {
 		margin-left: 0%;
 	}
 }
 
-@media (max-width: 699px) {
+@media all and (max-width: 699px) {
 	footer {
     	padding-right: 2%;
     }
@@ -356,6 +368,10 @@ footer .logo {
 		padding-left: 0;
 	}
 
+	.fa-brands {
+		margin-top: 0;
+	}
+
 	.fa-facebook-f {
 		margin-left: 0;
 	}
@@ -370,19 +386,19 @@ footer .logo {
     }
 }
 
-@media (max-width: 619px) {
+@media all and (max-width: 619px) {
 	.cmark p {
     	margin-top: 10%;
     }
 }
 
-@media (max-width: 599px) {
+@media all and (max-width: 599px) {
 	.cmark p {
     	margin-top: 12%;
     }
 }
 
-@media (max-width: 509px) {
+@media all and (max-width: 509px) {
 	.footer-icon {
 		position:relative;
 		top: 90px;
@@ -391,5 +407,23 @@ footer .logo {
 
 	.cmark p {
     	margin-top: 10%;
+    }
+}
+
+@media all and (max-width: 460px) {
+	.cmark p {
+    	margin-top: 12%;
+    }
+}
+
+@media all and (max-width: 430px) {
+	.cmark p {
+    	margin-top: 14%;
+    }
+}
+
+@media all and (max-width: 400px) {
+	.cmark p {
+    	margin-top: 16%;
     }
 }

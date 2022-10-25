@@ -251,7 +251,7 @@
 
 	.seemes p {
 		margin-left: 0;
-		text-align: right; 
+		text-align: right;
 	}
 
 	/*Team*/
@@ -471,6 +471,10 @@
 	}
 
 	/*Products*/
+	.sec-ttl {
+		font-size: 24px;
+	}
+
 	.product {
 		width: 90%;
 	}
@@ -573,7 +577,6 @@
 		top: 230px;
 	}
 
-	/*Products*/
 	.product {
 		width: 100%;
 	}
@@ -647,7 +650,8 @@
 @media all and (max-width: 565px) {
 	/*Top*/
 	.top-wrapper {
-		height: 500px;
+		height: 520px;
+		padding-left: 5%;
 	}
 
 	.top-wrapper h1 {
@@ -657,9 +661,14 @@
 
 	.btn {
 		top: 87%;
+		left: 37.5%;
 	}
 
 	/*Products*/
+	.sec-ttl {
+		font-size: 22px;
+	}
+
 	.products-wrapper {
 		padding-bottom: 5%;
 	}
@@ -685,11 +694,6 @@
 }
 
 @media all and (max-width: 541px) {
-	/*Top*/
-	.top-wrapper {
-		height: 515px;
-	}
-
 	/*Team*/
 	.marria {
 		width: 85%;
@@ -727,9 +731,81 @@
 
 }
 
+@media all and (max-width: 498px) {
+	/*Top*/
+	.top-wrapper {
+		height: 540px;
+	}
+
+	.btn {
+		top: 89%;
+		left: 35.5%;
+	}
+}
+
 @media all and (max-width: 481px) {
 	/*Top*/
 	.top-wrapper h1 {
 		font-size: 27px;
+	}
+}
+
+@media all and (max-width: 448px) {
+	/*Top*/
+	.top-wrapper h1 {
+		font-size: 25px;
+	}
+
+	.seemore-btn {
+		padding: 12px;
+	}
+
+}
+
+@media all and (max-width: 417px) {
+	/*Top*/
+	.top-wrapper {
+		height: 580px;
+	}
+
+	.top-wrapper h1 {
+		font-size: 23px;
+	}
+
+	.btn {
+		top: 90%;
+		left: 33%;
+	}
+}
+
+@media all and (max-width: 400px) {
+	/*Message*/
+	.title-2 {
+		padding-left: 0;
+	}
+
+	.list-2 {
+		margin-left: 20%;
+	}
+}
+
+@media all and (max-width: 381px) {
+	/*Top*/
+	.top-wrapper h1 {
+		font-size: 21px;
+	}
+
+	.btn {
+		left: 31%;
+	}
+
+	/*Message*/
+	.title-2 {
+		width: 250px;
+	}
+
+	.m-li {
+		font-size: 20px;
+		width: 200px;
 	}
 }

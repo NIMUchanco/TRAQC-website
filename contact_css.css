@@ -23,29 +23,20 @@
 
 .con-icons {
 	display: flex;
-	padding: 3% 2% 2% 8%;
+	padding: 2% 0 2% 0;
+	justify-content: center;
 }
 
 .con-icon {
+	width: 25%;
 	box-shadow: 1px 1px 6px 3px #E3E3E3;
 	/*border: 3.5px solid rgba(102, 102, 102, 0.8);*/
 	margin: 2%;
 	background-color: #fff;
 	text-align: center;
-	padding: 2% 2.05% 2% 2.05%;
+	padding: 3%;
 }
 
-.con-icon1 {
-	padding: 2% 2.5% 2% 2.5% !important;
-}
-
-.con-icon2 {
-	padding: 2% 4.24% 2% 4.24% !important;
-}
-
-.con-icon4 {
-	padding: 2% 3.56% 2% 3.56% !important;
-}
 
 .fa-phone-flip, .fa-envelope, .fa-location-dot, .fa-calendar-check {
 	font-size: 50px;
@@ -74,7 +65,8 @@
 .sec2and3 {
 	display: flex;
 	/*flex-wrap: wrap;*/
-	padding: 3% 5% 5% 9%;
+	padding: 3%0 5% 0;
+	justify-content: center;
 }
 
 .sec3 {
@@ -87,6 +79,11 @@
 	box-shadow: 1px 1px 6px 3px #E3E3E3;
 	/*border: 1px solid #000;*/
 	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.map {
+	width: 500px;
+	height: 550px;
 }
 
 .form-inner {
@@ -119,4 +116,92 @@
 
 .map {
 	box-shadow: 1px 1px 6px 3px #E3E3E3;
+}
+
+
+/*Responsive design*/
+@media all and (max-width: 1100px) {
+	.sec2and3 {
+    	flex-wrap: wrap;
+	}
+
+	.sec3 {
+    	padding: 5% 0 0 0;
+    }
+}
+
+@media all and (max-width: 869px) {
+	.top-wrapper {
+		height: 450px;
+	}
+
+	.con-icons {
+		flex-wrap: wrap;
+	}
+
+	.con-icon {
+		width: 30%;
+	}
+}
+
+@media all and (max-width: 835px) {
+	.con-icon {
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 699px) {
+	.top-wrapper {
+		height: 400px;
+	}
+
+	.form, .map {
+		width: 400px;
+		height: 520px;
+	}
+
+	.inputs {
+		width: 320px;
+	}
+}
+
+@media all and (max-width: 599px) {
+	.heading h2 {
+		font-size: 22px;
+	}
+}
+
+@media all and (max-width: 509px) {
+	.top-wrapper {
+		height: 350px;
+	}
+
+	.form, .map {
+		width: 350px;
+		height: 490px;
+	}
+
+	.inputs {
+		width: 280px;
+	}
+
+	.form p {
+    	padding-top: 5px;
+    
+	}
+}
+
+@media all and (max-width: 400px) {
+	.form, .map {
+		width: 300px;
+		height: 460px;
+	}
+
+	.inputs {
+		width: 240px;
+	}
+
+	.form p {
+    	font-size: 16px;
+	}
 }
