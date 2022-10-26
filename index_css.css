@@ -27,7 +27,7 @@
 .top-wrapper {
 	color: #fff;
 	padding-left: 8%;
-	background-image: url(../images/top_img.jfif);
+	background-image: url(./images/top_img.jfif);
 	background-position: center;
 	background-color: #fff; /*背景、余白のカラー*/
 	background-size: 45%;
