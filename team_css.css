@@ -8,7 +8,7 @@
   	background-color: #3563AA;
   }
 
-/*Team*/
+/*Team Co-founders*/
 .team-wrapper {
 	padding: 2% 4% 3% 4%;
 	background-color: rgba(246, 246, 246, 0.8);
@@ -76,6 +76,36 @@
 
 .text-ben h3 {
 	width: 165px;
+}
+
+/*Interns*/
+.interns-inner {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2% 4%;
+	justify-content: center;
+}
+
+.interns-des {
+	width: 250px;
+	padding: 2%;
+	text-align: center;
+}
+
+.interns-pic {
+	width: 85%;
+	height: auto;
+}
+
+.interns-text h3 {
+	margin: 2% 0;
+	font-size: 18px;
+}
+
+.interns-text h4 {
+	font-size: 17px;
+	color:#666;
+	margin: 0;
 }
 
 
