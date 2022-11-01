@@ -285,6 +285,7 @@
 	margin: 5% 8% 3% 8%; 
 	box-shadow: 1px 1px 6px 3px #E3E3E3;
 	background-color: #fff;
+	align-items: center;
 }
 
 .marria-img {
@@ -361,11 +362,13 @@
 .nsd-1 {
 	display: flex;
 	padding-top: 6%;
+	align-items: center;
 }
 
 .nsd-2 {
 	display: flex;
 	padding-top: 5%;
+	align-items: center;
 }
 
 

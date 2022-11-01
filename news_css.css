@@ -24,6 +24,7 @@
 .nsd {
 	display: flex;
 	padding-top: 3.5%;
+	align-items: center;
 }
 
 .nsd h3 {

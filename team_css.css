@@ -1,12 +1,10 @@
 /*Top*/
 .top-wrapper {
 	height: 500px;
-	background-image: url(./images/team.jpg);
-	background-position: 50% 100%;
-	background-repeat: no-repeat;
-  	background-size: 50%;
-  	background-color: #3563AA;
-  }
+	background-image: url(./images/montreal2.jpg);
+  	background-size: cover;
+  	background-position: 50% 30%; /*x y*/
+}
 
 /*Team Co-founders*/
 .team-wrapper {
@@ -25,6 +23,7 @@
 	margin: 5% 2% 3% 2%; 
 	box-shadow: 1px 1px 6px 3px #E3E3E3;
 	background-color: #fff;
+	align-items: center;
 }
 
 .img {
@@ -110,53 +109,13 @@
 
 
 /*Responsive design*/
-@media all and (max-width: 1540px) {
-	.top-wrapper {
-    	background-size: 55%;
-    }
-}
-
-@media all and (max-width: 1399px) {
-	.top-wrapper {
-    	background-size: 60%;
-    }
-}
-
-@media all and (max-width: 1301px) {
-	.pic-lp {
-    	padding-top: 14px;
-    }
-}
-
-@media all and (max-width: 1279px) {
-	.top-wrapper {
-    	background-size: 65%;
-    }
-}
-
 @media all and (max-width: 1203px) {
 	.pic-ben {
     	padding-top: 11px;
     }
 }
 
-@media all and (max-width: 1184px) {
-	.top-wrapper {
-    	background-size: 70%;
-    }
-}
-
-@media all and (max-width: 1099px) {
-	.top-wrapper {
-    	background-size: 75%;
-    }
-}
-
 @media all and (max-width: 1074px) {
-	.pic-lp {
-    	padding-top: 28px;
-    }
-
     .pic-ben {
     	padding-top: 18px;
     }
@@ -188,28 +147,9 @@
     }
 }
 
-@media all and (max-width: 1024px) {
-	.top-wrapper {
-    	background-size: 80%;
-    }
-}
-
-@media all and (max-width: 959px) {
-	.top-wrapper {
-    	background-size: 85%;
-    }
-}
-
-@media all and (max-width: 901px) {
-	.top-wrapper {
-    	background-size: 90%;
-    }
-}
-
 @media all and (max-width: 869px) {
 	.top-wrapper {
 		height: 450px;
-		background-size: 80%;
 	}
 
 	.team-des {
@@ -218,36 +158,18 @@
 }
 
 @media all and (max-width: 849px) {
-	.top-wrapper {
-		background-size: 85%;
-	}
-
 	.team-des {
     	width: 85%;
     }
 }
 
-@media all and (max-width: 799px) {
-	.top-wrapper {
-		background-size: 90%;
-	}
-}
-
 @media all and (max-width: 755px) {
-	.top-wrapper {
-		background-size: 95%;
-	}
-
 	.team-des {
     	width: 90%;
     }
 }
 
 @media all and (max-width: 715px) {
-	.top-wrapper {
-		background-size: 100%;
-	}
-
 	.text h3 {
 		font-size: 18px;
 	}
@@ -256,25 +178,6 @@
 @media all and (max-width: 699px) {
 	.top-wrapper {
 		height: 400px;
-		background-size: 85%;
-	}
-}
-
-@media all and (max-width: 695px) {
-	.top-wrapper {
-		background-size: 90%;
-	}
-}
-
-@media all and (max-width: 658px) {
-	.top-wrapper {
-		background-size: 95%;
-	}
-}
-
-@media all and (max-width: 623px) {
-	.top-wrapper {
-		background-size: 100%;
 	}
 }
 
@@ -284,60 +187,32 @@
 	}
 }
 
-@media all and (max-width: 591px) {
-	.top-wrapper {
-		height: 385px;
-	}
-}
-
 @media all and (max-width: 565px) {
-	.top-wrapper {
-		height: 365px;
-	}
-
 	.team-des {
     	width: 95%;
     }
 }
 
 @media all and (max-width: 529px) {
-	.top-wrapper {
-		height: 350px;
-	}
-
 	.team-des {
     	width: 100%;
     }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 509px) {
 	.top-wrapper {
-		height: 340px;
+		height: 350px;
 	}
+}
 
+@media all and (max-width: 500px) {
 	.pic {
 		width: 195px;
 		height: 195px;
 	}
 }
 
-@media all and (max-width: 485px) {
-	.top-wrapper {
-		height: 330px;
-	}
-}
-
-@media all and (max-width: 465px) {
-	.top-wrapper {
-		height: 320px;
-	}
-}
-
 @media all and (max-width: 449px) {
-	.top-wrapper {
-		height: 300px;
-	}
-
 	.pic {
 		width: 190px;
 		height: 190px;
@@ -354,18 +229,8 @@
 }
 
 @media all and (max-width: 414px) {
-	.top-wrapper {
-		height: 280px;
-	}
-
 	.pic {
 		width: 180px;
 		height: 180px;
-	}
-}
-
-@media all and (max-width: 379px) {
-	.top-wrapper {
-		height: 260px;
 	}
 }
