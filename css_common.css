@@ -288,13 +288,18 @@ footer .logo {
 	font-size: 16px;
 }
 
-.cmark p {
+.cmark p, .cmark a {
 	color: #666;
 	opacity: 0.8;
 }
 
-/*.cmark p a:hover {
-	color: #4774B6;} /*リンクにマウスが乗ったとき、色を付ける*/
+.cmark a {
+	text-decoration: underline;
+}
+
+.cmark p a:hover {
+	color: #4774B6;
+}
 
 
 
