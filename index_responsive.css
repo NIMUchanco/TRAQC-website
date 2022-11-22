@@ -858,6 +858,19 @@
 	.top-wrapper p {
 		padding: 0;
 	}
+
+	/*Products*/
+	.products-pic {
+		align-items: flex-start;
+	}
+
+	.product-pic1 {
+		width: 90%;
+	}
+
+	.product-pic2 {
+		display: none;
+	}
 }
 
 @media all and (max-width: 400px) {
@@ -905,5 +918,12 @@
 	/*Team*/
 	.marria-img {
 		width: 65%;
+	}
+}
+
+@media all and (max-width: 355px) {
+	/*Top*/
+	.top-wrapper {
+		height: 665px;
 	}
 }
